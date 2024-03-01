@@ -1345,60 +1345,48 @@ th:last-child {
     gap: 3rem;
   }
 }
-
-/* Login Form */
-.login-form {
-  padding: 5rem 0;
-  max-width: 50rem;
-  margin: 5rem auto;
+/*contact us*/
+.contact-form {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 4rem;
+  background-color: var(--grey1);
+  border-radius: 1rem;
 }
 
-.login-form form {
-  display: flex;
-  flex-direction: column;
-}
-
-.login-form form h1 {
-  margin-bottom: 1rem;
-}
-.login-form form p {
+.contact-form h2 {
+  font-size: 3rem;
   margin-bottom: 2rem;
+  text-align: center;
 }
 
-.login-form form label {
-  margin-bottom: 1rem;
-}
-
-.login-form form input {
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 2rem;
   border: 1px solid #ccc;
-  outline: none;
-  padding: 1.5rem 0;
-  text-indent: 1rem;
-  font-size: 1.6rem;
-  margin-bottom: 2rem;
   border-radius: 0.5rem;
 }
 
-.login-form form input::placeholder {
-  font-size: 1.6rem;
-  color: #222;
+.contact-form textarea {
+  height: 10rem;
 }
 
-.login-form form .buttons {
-  margin-top: 1rem;
-}
-
-.login-form form button {
-  outline: none;
-  border: none;
-  font-size: 1.6rem;
-  padding: 1rem 3rem;
-  margin-right: 1.5rem;
+.contact-form button {
+  display: block;
+  width: 100%;
+  padding: 1rem;
   background-color: var(--green);
-  color: white;
+  color: var(--white);
+  border: none;
+  border-radius: 0.5rem;
   cursor: pointer;
+  font-size: 1.6rem;
+  transition: background-color 0.3s ease;
 }
 
-.login-form form p a {
-  color: dodgerblue;
+.contact-form button:hover {
+  background-color: #5c9b02;
 }
