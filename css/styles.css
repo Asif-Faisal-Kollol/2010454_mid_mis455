@@ -1390,3 +1390,17 @@ th:last-child {
 .contact-form button:hover {
   background-color: #5c9b02;
 }
+
+.contact-info {
+  margin-bottom: 2rem;
+}
+
+.contact-info-item {
+  display: flex;
+  align-items: center;
+}
+
+.contact-info-icon {
+  margin-right: 1rem;
+  font-size: 2rem;
+}
